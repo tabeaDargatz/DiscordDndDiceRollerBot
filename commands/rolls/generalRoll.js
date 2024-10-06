@@ -174,7 +174,6 @@ module.exports = {
     const id = interaction.user.username.toLowerCase();
     const playerName = interaction.member.nickname;
     const skillBonus = (await db.get(id + skill)).value ?? 0;
-    console.log(playerName);
     let rolls = rollDice(times, sides, skillBonus);
     const diceType = `${times}d${sides}`;
 
