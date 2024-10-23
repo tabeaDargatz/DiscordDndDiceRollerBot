@@ -10,9 +10,9 @@ You can register skills for your character so that the modifiers are automatical
 **ROLLING DICE**
 To roll a check, use the following command. You can specify as many of the options as you want.
       /roll             rolls a d20
-      [sides]         specifies the amount of sides
-      [times]        specifies how many dice should be rolled
-      [skill]           automatically adds the skill modifier (i.e. +2) that is registered for this person.
+         [sides]         specifies the amount of sides
+         [times]        specifies how many dice should be rolled
+         [skill]           automatically adds the skill modifier (i.e. +2) that is registered for this person.
     
 **STATS**
 The bot will keep track of your d20 rolls and allows you to look at some semi interesting stats, I guess.
